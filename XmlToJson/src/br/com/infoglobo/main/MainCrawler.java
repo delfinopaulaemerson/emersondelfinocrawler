@@ -10,6 +10,7 @@ public class MainCrawler {
 		Manipulation m = new Manipulation();
 		
 		try {
+			
 			//EXECUTANDO O METODO DE CONVERSAO DA ESTRUTURA DE DADOS
 			m.ConverterXmlToJson();
 		} catch (Exception e) {
